@@ -5,3 +5,4 @@
 
 import validator
 
+def passGen(length, type):
