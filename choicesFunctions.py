@@ -8,13 +8,15 @@ import validator
 LETTERS = 1
 NUMBERS = 2
 SYMBOLS = 3
-QUIT = 4
+ONLYNUMBS = 4
+QUIT = 5
 
 print('Here are your options:')
-print('Option 1: Execute generate with only upper and lowercase letters')
-print('Option 2: Execute code with uppercase, lowercase, and numbers')
-print('Option 3: Execute code with uppercase, lowercase, numbers, and symbols')
-print('Option 4: Quit')
+print('Option 1: upper and lowercase letters')
+print('Option 2: uppercase, lowercase, and numbers')
+print('Option 3: uppercase, lowercase, numbers, and symbols')
+print('Option 4: Numbers')
+print('Option 5: Quit')
 choice = input('What option do you want')
 
 while choice != QUIT:
